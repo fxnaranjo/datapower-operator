@@ -17,13 +17,13 @@ user@mypc:$ mkdir /home/fnaranjo/DEMOS/datapower
 user@mypc:$ mkdir certs local config
 user@mypc:$ cd /home/fnaranjo/DEMOS/datapower
 ```
-#### Login into the container registry
+#### 1.2 Login into the container registry
 ```
 user@mypc:$ podman login cp.icr.io
 Username: cp
 Password: <IBM Entitled Key>
 ```
-#### Start the IBM Datapower Container
+#### 1.3 Start the IBM Datapower Container
 ```
 user@mypc:$ docker run -it --name mydp \
 -v $(pwd)/config:/opt/ibm/datapower/drouter/config \
@@ -51,8 +51,8 @@ docker.io/ibmcom/datapower:latest
 
 ![dp1](https://github.com/fxnaranjo/datapower-operator/raw/main/images/1.png "dp1")
 
-#### Once the container finish up loading access the admin console with admin/admin
-#### Configure the web console using the following procedure
+#### 1.4 Once the container finish up loading access the admin console with admin/admin
+#### 1.5 Configure the web console using the following procedure
 ```
 idg# config
 Global mode
@@ -63,8 +63,8 @@ idg(config)# write mem
 ```
 ![dp2](https://github.com/fxnaranjo/datapower-operator/raw/main/images/2.png "dp2")
 
-#### Access IBM Datapower Admin Console using the following URL: https://localhost:9090
+#### 1.6 Access IBM Datapower Admin Console using the following URL: https://localhost:9090
 ![dp3](https://github.com/fxnaranjo/datapower-operator/raw/main/images/3.png "dp3")
 ![dp4](https://github.com/fxnaranjo/datapower-operator/raw/main/images/4.png "dp4")
 
-### 2. Creating a simple multiprotocol gateway on IBM Datapower
+### 2. Creating a simple Multiprotocol Gateway on IBM Datapower
