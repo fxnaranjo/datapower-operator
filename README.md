@@ -122,7 +122,7 @@ user@mypc:$ oc create secret generic datapower-admin-credentials --from-literal=
 user@mypc:$ oc create configmap default-config --from-file=/home/fnaranjo/DEMOS/datapower/config/default.cfg
 user@mypc:$ oc create configmap testing-config --from-file=/home/fnaranjo/DEMOS/datapower/config/testing/testing.cfg
 ```
-* Click the plus sign in the Openshift console and add the configuration for the new Datapower Service
+* Click the plus icon in the Openshift console and add the configuration for the new Datapower Service (make sure to be in the datapower project)
 ![dp21](https://github.com/fxnaranjo/datapower-operator/raw/main/images/21.png "dp21")
 
 
