@@ -117,7 +117,7 @@ user@mypc:$ oc create secret docker-registry ibm-entitlement-key --docker-userna
 ```
 user@mypc:$ oc create secret generic datapower-admin-credentials --from-literal=password=<password> -n datapower
 ```
-* Create the config maps that holds the configuration of your development environment (the --from-file path should match your folder structure created earlier
+* Create the config maps that holds the configuration of your development environment (the --from-file path should match your folder structure created earlier)
 ```
 user@mypc:$ oc create configmap default-config --from-file=/home/fnaranjo/DEMOS/datapower/config/default.cfg
 user@mypc:$ oc create configmap testing-config --from-file=/home/fnaranjo/DEMOS/datapower/config/testing/testing.cfg
