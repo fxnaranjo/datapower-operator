@@ -96,5 +96,5 @@ idg(config)# write mem
 #### 2.3 Test the new service
 ##### 2.3.1 Click apply and save the changes
 ![dp1x](https://github.com/fxnaranjo/datapower-operator/raw/main/images/1x.png "dp1x")
-##### 2.3.2 Use you browser to test the following URL: [http://](http://localhost:4444/v2/pet/findByStatus?status=available)
+##### 2.3.2 Use you browser to test the following URL: [http://localhost:4444/v2/pet/findByStatus?status=available](http://localhost:4444/v2/pet/findByStatus?status=available)
 ![dp16](https://github.com/fxnaranjo/datapower-operator/raw/main/images/16.png "dp16")
