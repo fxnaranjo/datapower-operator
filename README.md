@@ -78,5 +78,5 @@ idg(config)# write mem
 * Change to the new created domain, Click on **Control Panel** and then in **Multi-Protocol Gateway**, Click Add to create the new service
 ![dp8](https://github.com/fxnaranjo/datapower-operator/raw/main/images/8.png "dp8")
 ![dp9](https://github.com/fxnaranjo/datapower-operator/raw/main/images/9.png "dp9")
-* Create the new Multi-Protocol Gateway with the following parameters
-** Name: mympg
+- Create the new Multi-Protocol Gateway with the following parameters
+  - Name: mympg
