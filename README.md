@@ -197,7 +197,11 @@ spec:
 ![dp27](https://github.com/fxnaranjo/datapower-operator/raw/main/images/27.png "dp27")
 * Create the IBM Datapower Service route
 ![dp28](https://github.com/fxnaranjo/datapower-operator/raw/main/images/28.png "dp28")
-
+* Access the console from the created route and using the credentials created earlier
+![dp24](https://github.com/fxnaranjo/datapower-operator/raw/main/images/24.png "dp24")
+* In the console verify that that all the configuration requeired is present
+![dp25](https://github.com/fxnaranjo/datapower-operator/raw/main/images/25.png "dp25")
+![dp26](https://github.com/fxnaranjo/datapower-operator/raw/main/images/26.png "dp26")
 
 
 
