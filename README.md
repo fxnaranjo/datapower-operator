@@ -100,9 +100,20 @@ idg(config)# write mem
 ![dp16](https://github.com/fxnaranjo/datapower-operator/raw/main/images/16.png "dp16")
 
 ### 3. Creating an IBM Datapower Gateway in Red Hat Openshift
-#### 2.3 Install the IBM Datapower Operator
-* Add the online catalog sources to the cluster according to this [link](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2020.4?topic=installing-adding-online-catalog-sources-cluster)
-* 
+#### 3.1 Install the IBM Datapower Operator
+* Add the online catalog sources to the cluster according to this [link](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2021.4?topic=installing-adding-catalog-sources-online-openshift-cluster)
+* Create a new Openshit project called datapower (must be logged-in into the cluster)
+```
+user@mypc:$ oc new-project datapower
+```
+* Create a secret to hold the IBM Entlitement Registry Key (must be logged-in into the cluster)
+```
+user@mypc:$ oc new-project datapower
+```
+user@mypc:$ oc create secret docker-registry ibm-entitlement-key --docker-username=cp --docker-password=<your-key> --docker-server=cp.icr.io -n datapower
+* Install the IBM Datapower Operator from the Openshift Web Console, install the lastest version and choose the datapower project created earlier
+![dp17](https://github.com/fxnaranjo/datapower-operator/raw/main/images/17.png "dp17")
+ 
 
 
 
