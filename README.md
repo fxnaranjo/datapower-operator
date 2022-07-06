@@ -35,7 +35,9 @@ user@mypc:$ docker run -it --name mydp \
 -p 4444:4444 \
 cp.icr.io/cp/datapower/datapower-cp4i:10.0.1.8
 
+
 ------------DOCKER HUB VERSION-------------------
+
 user@mypc:$ docker run -it --name mydp \
 -v $(pwd)/config:/opt/ibm/datapower/drouter/config \
 -v $(pwd)/local:/opt/ibm/datapower/drouter/local \
@@ -46,3 +48,5 @@ user@mypc:$ docker run -it --name mydp \
 -p 4444:4444 \
 docker.io/ibmcom/datapower:latest
 ```
+
+![dp1](https://github.com/fxnaranjo/filenet/raw/main/images/1operator.png "Operator5")
