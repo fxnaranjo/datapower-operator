@@ -110,7 +110,6 @@ user@mypc:$ oc new-project datapower
 ```
 user@mypc:$ oc create secret docker-registry ibm-entitlement-key --docker-username=cp --docker-password=<your-key> --docker-server=cp.icr.io -n datapower
 ```
-![dp19](https://github.com/fxnaranjo/datapower-operator/raw/main/images/19.png "dp19")
 * Install the IBM Datapower Operator from the Openshift Web Console, install the lastest version and choose the datapower project created earlier
 ![dp17](https://github.com/fxnaranjo/datapower-operator/raw/main/images/17.png "dp17")
 #### 3.2 Create the config maps and secrets to hold the configuration
@@ -123,6 +122,8 @@ user@mypc:$ oc create secret generic datapower-admin-credentials --from-literal=
 user@mypc:$ oc create configmap default-config --from-file=/home/fnaranjo/DEMOS/datapower/config/default.cfg
 user@mypc:$ oc create configmap testing-config --from-file=/home/fnaranjo/DEMOS/datapower/config/testing/testing.cfg
 ```
+* Click the plus sign in the Openshift console and add the configuration for the new Datapower Service
+![dp21](https://github.com/fxnaranjo/datapower-operator/raw/main/images/21.png "dp21")
 
 
 
