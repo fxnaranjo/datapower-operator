@@ -49,4 +49,4 @@ user@mypc:$ docker run -it --name mydp \
 docker.io/ibmcom/datapower:latest
 ```
 
-![dp1](https://github.com/fxnaranjo/datapower-operator/raw/main/images/11.png "dp1")
+![dp1](https://github.com/fxnaranjo/datapower-operator/raw/main/images/1.png "dp1")
