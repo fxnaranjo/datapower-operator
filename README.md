@@ -80,3 +80,12 @@ idg(config)# write mem
 ![dp9](https://github.com/fxnaranjo/datapower-operator/raw/main/images/9.png "dp9")
 - Create the new Multi-Protocol Gateway with the following parameters
   - Name: mympg
+  - Type: static-backend
+  - Default Backend URL: https://petstore.swagger.io/
+  - Processing Policy: Create a new one
+  - Front Side Protocol: Create a new HTTP Handler
+  - TLS client profile: Create a new one
+ ![dp15](https://github.com/fxnaranjo/datapower-operator/raw/main/images/15.png "dp15")
+ - Configuration for Processing Policy
+ - 
+ - 
