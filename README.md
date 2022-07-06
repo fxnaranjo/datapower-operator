@@ -191,7 +191,12 @@ spec:
     targetPort: 4444
     name: service
 ```
-
+* Go to the pods view to verify if the new Datapower container is running
+![dp23](https://github.com/fxnaranjo/datapower-operator/raw/main/images/23.png "dp23")
+* Create the IBM Datapower Console route
+![dp27](https://github.com/fxnaranjo/datapower-operator/raw/main/images/27.png "dp27")
+* Create the IBM Datapower Service route
+![dp28](https://github.com/fxnaranjo/datapower-operator/raw/main/images/28.png "dp28")
 
 
 
