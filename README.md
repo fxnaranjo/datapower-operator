@@ -14,6 +14,12 @@ This guide is intented to guide on how to create a development enviroment for IB
 * Create a directory structure to hold the configuration files
 
 ```
-mkdir /home/fnaranjo/DEMOS/datapower
-mkdir certs local config
+**user@mypc:$** mkdir /home/fnaranjo/DEMOS/datapower
+**user@mypc:$** mkdir certs local config
+```
+* Login into the container registry
+```
+**user@mypc:$** podman login cp.icr.io
+**Username:** cp
+**Password:** <IBM Entitled Key>
 ```
