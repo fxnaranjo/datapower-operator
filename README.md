@@ -71,6 +71,8 @@ idg(config)# write mem
 #### 2.1 Create a new application domain
 * Using the search bar look for "domain" and click **Application Domain**
 ![dp5](https://github.com/fxnaranjo/datapower-operator/raw/main/images/5.png "dp5") <br>
+
+
 * Click Add to create the new domain
 ![dp6](https://github.com/fxnaranjo/datapower-operator/raw/main/images/6.png "dp6")
 * Enter the name for the new domain and click apply, in the example the new domain is called **testing**
