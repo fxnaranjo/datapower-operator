@@ -1,6 +1,6 @@
 # Using IBM Datapower Operator
 
-This guide is intented to show how to create a development enviroment for IBM Datapower, and use the generated configuration to generate a Datapower Service in Red Hat Openshift using the IBM Datapower Operator
+This guide is intented to show how to create a development enviroment for IBM Datapower, and use the generated configuration to create a Datapower Service in Red Hat Openshift using the IBM Datapower Operator
 
 ***
 ## Prerequisites
