@@ -11,7 +11,7 @@ This guide is intented to guide on how to create a development enviroment for IB
 
 ### 1. Creating the IBM Datapower Docker Development Environment
 
-#### Create a directory structure to hold the configuration files
+#### 1.1 Create a directory structure to hold the configuration files
 ```
 user@mypc:$ mkdir /home/fnaranjo/DEMOS/datapower
 user@mypc:$ mkdir certs local config
@@ -63,8 +63,8 @@ idg(config)# write mem
 ```
 ![dp2](https://github.com/fxnaranjo/datapower-operator/raw/main/images/2.png "dp2")
 
-* Access IBM Datapower Admin Console using the following URL: https://localhost:9090
+#### Access IBM Datapower Admin Console using the following URL: https://localhost:9090
 ![dp3](https://github.com/fxnaranjo/datapower-operator/raw/main/images/3.png "dp3")
-***
 ![dp4](https://github.com/fxnaranjo/datapower-operator/raw/main/images/4.png "dp4")
 
+### 2. Creating a simple multiprotocol gateway on IBM Datapower
