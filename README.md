@@ -17,13 +17,13 @@ user@mypc:$ mkdir /home/fnaranjo/DEMOS/datapower
 user@mypc:$ mkdir certs local config
 user@mypc:$ cd /home/fnaranjo/DEMOS/datapower
 ```
-* Login into the container registry
+#### Login into the container registry
 ```
 user@mypc:$ podman login cp.icr.io
 Username: cp
 Password: <IBM Entitled Key>
 ```
-* Start the IBM Datapower Container
+#### Start the IBM Datapower Container
 ```
 user@mypc:$ docker run -it --name mydp \
 -v $(pwd)/config:/opt/ibm/datapower/drouter/config \
@@ -51,8 +51,8 @@ docker.io/ibmcom/datapower:latest
 
 ![dp1](https://github.com/fxnaranjo/datapower-operator/raw/main/images/1.png "dp1")
 
-* Once the container finish up loading access the admin console with admin/admin
-* Configure the web console using the following procedure
+#### Once the container finish up loading access the admin console with admin/admin
+#### Configure the web console using the following procedure
 ```
 idg# config
 Global mode
