@@ -51,7 +51,7 @@ docker.io/ibmcom/datapower:latest
 
 ![dp1](https://github.com/fxnaranjo/datapower-operator/raw/main/images/1.png "dp1")
 
-#### 1.4 Once the container finish up loading access the admin console with admin/admin
+#### 1.4 Once the container finish up loading, access the admin console with admin/admin
 #### 1.5 Configure the web console using the following procedure
 ```
 idg# config
