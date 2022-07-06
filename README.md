@@ -85,11 +85,11 @@ idg(config)# write mem
   - Processing Policy: Create a new one
   - Front Side Protocol: Create a new HTTP Handler
   - TLS client profile: Create a new one
- ![dp15](https://github.com/fxnaranjo/datapower-operator/raw/main/images/15.png "dp15")
+![dp15](https://github.com/fxnaranjo/datapower-operator/raw/main/images/15.png "dp15")
  - Configuration for Processing Policy
-  ![dp12](https://github.com/fxnaranjo/datapower-operator/raw/main/images/12.png "dp12")
-  ![dp11](https://github.com/fxnaranjo/datapower-operator/raw/main/images/11.png "dp11")
+![dp12](https://github.com/fxnaranjo/datapower-operator/raw/main/images/12.png "dp12")
+![dp11](https://github.com/fxnaranjo/datapower-operator/raw/main/images/11.png "dp11")
  - Configuration for HTTP Handler
-  ![dp13](https://github.com/fxnaranjo/datapower-operator/raw/main/images/13.png "dp13")
+![dp13](https://github.com/fxnaranjo/datapower-operator/raw/main/images/13.png "dp13")
 - Configuration for TLS client profile
-  ![dp14](https://github.com/fxnaranjo/datapower-operator/raw/main/images/14.png "dp14")
+![dp14](https://github.com/fxnaranjo/datapower-operator/raw/main/images/14.png "dp14")
