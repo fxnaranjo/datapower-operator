@@ -11,3 +11,9 @@ This guide is intented to guide on how to create a development enviroment for IB
 
 ### 1. Creating the IBM Datapower Docker Development Environment
 
+* Create a directory structure to hold the configuration files
+
+```
+mkdir /home/fnaranjo/DEMOS/datapower
+mkdir certs local config
+```
