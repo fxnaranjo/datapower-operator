@@ -50,3 +50,16 @@ docker.io/ibmcom/datapower:latest
 ```
 
 ![dp1](https://github.com/fxnaranjo/datapower-operator/raw/main/images/1.png "dp1")
+
+* Once the container finish up loading access the admin console with admin/admin
+* Configure the web console using the following procedure
+```
+idg# config
+Global mode
+idg(config)# web-mgmt
+idg(config web-mgmt)# admin-state enabled
+idg(config web-mgmt)# exit
+idg(config)# write mem
+```
+![dp2](https://github.com/fxnaranjo/datapower-operator/raw/main/images/2.png "dp2")
+
