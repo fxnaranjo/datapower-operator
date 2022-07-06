@@ -75,10 +75,10 @@ idg(config)# write mem
 * Enter the name for the new domain and click apply, in the example the new domain is called **testing**
 ![dp7](https://github.com/fxnaranjo/datapower-operator/raw/main/images/7.png "dp7")
 #### 2.2 Create a new Multi-Protocol Gateway
-* Change to the new created domain, Click on **Control Panel** and then in **Multi-Protocol Gateway**, Click Add to create the new service
+##### 2.2.1 Change to the new created domain, Click on **Control Panel** and then in **Multi-Protocol Gateway**, Click Add to create the new service
 ![dp8](https://github.com/fxnaranjo/datapower-operator/raw/main/images/8.png "dp8")
 ![dp9](https://github.com/fxnaranjo/datapower-operator/raw/main/images/9.png "dp9")
-- Create the new Multi-Protocol Gateway with the following parameters
+##### 2.2.2 Create the new Multi-Protocol Gateway with the following parameters
   - Name: mympg
   - Type: static-backend
   - Default Backend URL: https://petstore.swagger.io/
@@ -86,10 +86,10 @@ idg(config)# write mem
   - Front Side Protocol: Create a new HTTP Handler
   - TLS client profile: Create a new one
 ![dp15](https://github.com/fxnaranjo/datapower-operator/raw/main/images/15.png "dp15")
- - Configuration for Processing Policy
+##### 2.2.3 Configuration for Processing Policy
 ![dp12](https://github.com/fxnaranjo/datapower-operator/raw/main/images/12.png "dp12")
 ![dp11](https://github.com/fxnaranjo/datapower-operator/raw/main/images/11.png "dp11")
- - Configuration for HTTP Handler
+##### 2.2.4 Configuration for HTTP Handler
 ![dp13](https://github.com/fxnaranjo/datapower-operator/raw/main/images/13.png "dp13")
-- Configuration for TLS client profile
+##### 2.2.5 Configuration for TLS client profile
 ![dp14](https://github.com/fxnaranjo/datapower-operator/raw/main/images/14.png "dp14")
