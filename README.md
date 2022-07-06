@@ -67,7 +67,7 @@ idg(config)# write mem
 ![dp3](https://github.com/fxnaranjo/datapower-operator/raw/main/images/3.png "dp3")
 ![dp4](https://github.com/fxnaranjo/datapower-operator/raw/main/images/4.png "dp4")
 
-### 2. Creating a simple Multiprotocol Gateway on IBM Datapower
+### 2. Creating a Simple Multiprotocol Gateway on IBM Datapower
 #### 2.1 Create a new application domain
 * Using the search bar look for "domain" and click **Application Domain** then Click Add to create the new domain
 ![dp5](https://github.com/fxnaranjo/datapower-operator/raw/main/images/5.png "dp5")
@@ -98,3 +98,6 @@ idg(config)# write mem
 ![dp1x](https://github.com/fxnaranjo/datapower-operator/raw/main/images/1x.png "dp1x")
 ##### 2.3.2 Use you browser to test the following URL: [http://localhost:4444/v2/pet/findByStatus?status=available](http://localhost:4444/v2/pet/findByStatus?status=available)
 ![dp16](https://github.com/fxnaranjo/datapower-operator/raw/main/images/16.png "dp16")
+
+### 3. Creating an IBM Datapower Gateway in Red Hat Openshift
+
