@@ -108,9 +108,8 @@ user@mypc:$ oc new-project datapower
 ```
 * Create a secret to hold the IBM Entlitement Registry Key (must be logged-in into the cluster)
 ```
-user@mypc:$ oc new-project datapower
-```
 user@mypc:$ oc create secret docker-registry ibm-entitlement-key --docker-username=cp --docker-password=<your-key> --docker-server=cp.icr.io -n datapower
+```
 * Install the IBM Datapower Operator from the Openshift Web Console, install the lastest version and choose the datapower project created earlier
 ![dp17](https://github.com/fxnaranjo/datapower-operator/raw/main/images/17.png "dp17")
  
