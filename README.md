@@ -68,3 +68,5 @@ idg(config)# write mem
 ![dp4](https://github.com/fxnaranjo/datapower-operator/raw/main/images/4.png "dp4")
 
 ### 2. Creating a simple Multiprotocol Gateway on IBM Datapower
+#### 2.1 Create a new application domain
+Using the search bar look for "domain" and click **Application Domain**
