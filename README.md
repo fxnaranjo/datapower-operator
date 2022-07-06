@@ -199,10 +199,14 @@ spec:
 ![dp28](https://github.com/fxnaranjo/datapower-operator/raw/main/images/28.png "dp28")
 * Access the console from the created route and using the credentials created earlier
 ![dp24](https://github.com/fxnaranjo/datapower-operator/raw/main/images/24.png "dp24")
-* In the console verify that that all the configuration requeired is present
+* In the console verify that that all the configuration required is present
 ![dp25](https://github.com/fxnaranjo/datapower-operator/raw/main/images/25.png "dp25")
 ![dp26](https://github.com/fxnaranjo/datapower-operator/raw/main/images/26.png "dp26")
+* Test the service using the created route and adding the following context **/v2/pet/findByStatus?status=available**
+![dp2x](https://github.com/fxnaranjo/datapower-operator/raw/main/images/2x.png "dp2x")
+![dp29](https://github.com/fxnaranjo/datapower-operator/raw/main/images/29.png "dp29")
 
+## CONGRATULATIONS!! You have successfully deployed an IBM Datapower Service with custom configuration
 
 
 
