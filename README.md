@@ -12,14 +12,37 @@ This guide is intented to guide on how to create a development enviroment for IB
 ### 1. Creating the IBM Datapower Docker Development Environment
 
 * Create a directory structure to hold the configuration files
-
 ```
-**user@mypc:$** mkdir /home/fnaranjo/DEMOS/datapower
-**user@mypc:$** mkdir certs local config
+user@mypc:$ mkdir /home/fnaranjo/DEMOS/datapower
+user@mypc:$ mkdir certs local config
+user@mypc:$ cd /home/fnaranjo/DEMOS/datapower
 ```
 * Login into the container registry
 ```
-**user@mypc:$** podman login cp.icr.io
-**Username:** cp
-**Password:** <IBM Entitled Key>
+user@mypc:$ podman login cp.icr.io
+Username: cp
+Password: <IBM Entitled Key>
+```
+* Start the IBM Datapower Container
+```
+user@mypc:$ docker run -it --name mydp \
+-v $(pwd)/config:/opt/ibm/datapower/drouter/config \
+-v $(pwd)/local:/opt/ibm/datapower/drouter/local \
+-v $(pwd)/certs:/opt/ibm/datapower/root/secure/usrcerts \
+-e DATAPOWER_ACCEPT_LICENSE="true" \
+-e DATAPOWER_INTERACTIVE="true" \
+-p 9090:9090 \
+-p 4444:4444 \
+cp.icr.io/cp/datapower/datapower-cp4i:10.0.1.8
+
+------------DOCKER HUB VERSION-------------------
+user@mypc:$ docker run -it --name mydp \
+-v $(pwd)/config:/opt/ibm/datapower/drouter/config \
+-v $(pwd)/local:/opt/ibm/datapower/drouter/local \
+-v $(pwd)/certs:/opt/ibm/datapower/root/secure/usrcerts \
+-e DATAPOWER_ACCEPT_LICENSE="true" \
+-e DATAPOWER_INTERACTIVE="true" \
+-p 9090:9090 \
+-p 4444:4444 \
+docker.io/ibmcom/datapower:latest
 ```
