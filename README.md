@@ -93,3 +93,8 @@ idg(config)# write mem
 ![dp13](https://github.com/fxnaranjo/datapower-operator/raw/main/images/13.png "dp13")
 ##### 2.2.5 Configuration for TLS client profile
 ![dp14](https://github.com/fxnaranjo/datapower-operator/raw/main/images/14.png "dp14")
+#### 2.3 Test the new service
+##### 2.3.1 Click apply and save the changes
+![dp1x](https://github.com/fxnaranjo/datapower-operator/raw/main/images/1x.png "dp1x")
+##### 2.3.2 Use you browser to test the following URL: [http://](http://localhost:4444/v2/pet/findByStatus?status=available)
+![dp16](https://github.com/fxnaranjo/datapower-operator/raw/main/images/16.png "dp16")
