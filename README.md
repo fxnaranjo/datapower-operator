@@ -122,9 +122,75 @@ user@mypc:$ oc create secret generic datapower-admin-credentials --from-literal=
 user@mypc:$ oc create configmap default-config --from-file=/home/fnaranjo/DEMOS/datapower/config/default.cfg
 user@mypc:$ oc create configmap testing-config --from-file=/home/fnaranjo/DEMOS/datapower/config/testing/testing.cfg
 ```
+* Click the plus icon in the Openshift console and add the configuration for the Datapower Web Console (make sure to be in the datapower project)
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: console-config
+data:
+  console.cfg: |
+    web-mgmt
+        admin-state "enabled"
+        local-address "0.0.0.0" "9090"
+        save-config-overwrite 
+        idle-timeout 600
+        ssl-config-type server
+        no disable-csrf 
+        enable-sts 
+    exit
+```
 * Click the plus icon in the Openshift console and add the configuration for the new Datapower Service (make sure to be in the datapower project)
 ![dp21](https://github.com/fxnaranjo/datapower-operator/raw/main/images/21.png "dp21")
-
+```
+apiVersion: datapower.ibm.com/v1beta3
+kind: DataPowerService
+metadata:
+  name: mydp
+spec:
+  version: 10.0-lts
+  license:
+    accept: true
+    use: production
+    license: L-RJON-CCCPAN
+  replicas: 1
+  users:
+  - name: admin
+    passwordSecret: datapower-admin-credentials
+    accessLevel: privileged
+  domains:
+  - name: "default"
+    dpApp:
+      config:
+      - "default-config"
+      - "console-config"
+  - name: "testing"
+    dpApp:
+      config:
+      - "testing-config"
+```
+* Click the plus icon in the Openshift console and add the configuration for the new Openshift Service needed to access the Datapower (make sure to be in the datapower project)
+![dp22](https://github.com/fxnaranjo/datapower-operator/raw/main/images/22.png "dp22")
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: mydatapower-svc
+  namespace: datapower
+spec:
+  selector:
+    app.kubernetes.io/component: datapower
+    app.kubernetes.io/instance: datapower-mydp
+  ports:
+  - protocol: TCP
+    port: 9090
+    targetPort: 9090
+    name: console
+  - protocol: TCP
+    port: 4444
+    targetPort: 4444
+    name: service
+```
 
 
 
