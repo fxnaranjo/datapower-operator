@@ -65,4 +65,6 @@ idg(config)# write mem
 
 * Access IBM Datapower Admin Console using the following URL: https://localhost:9090
 ![dp3](https://github.com/fxnaranjo/datapower-operator/raw/main/images/3.png "dp3")
+***
+![dp4](https://github.com/fxnaranjo/datapower-operator/raw/main/images/4.png "dp4")
 
