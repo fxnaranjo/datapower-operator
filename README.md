@@ -75,5 +75,7 @@ idg(config)# write mem
 * Enter the name for the new domain and click apply, in the example the new domain is called **testing**
 ![dp7](https://github.com/fxnaranjo/datapower-operator/raw/main/images/7.png "dp7")
 #### 2.2 Create a new Multi-Protocol Gateway
-* Change to the new created domain, Click on **Control Panel** and then in **Multi-Protocol Gateway**
+* Change to the new created domain, Click on **Control Panel** and then in **Multi-Protocol Gateway**, Click Add to create the new service
 ![dp8](https://github.com/fxnaranjo/datapower-operator/raw/main/images/8.png "dp8")
+![dp9](https://github.com/fxnaranjo/datapower-operator/raw/main/images/9.png "dp9")
+* 
