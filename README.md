@@ -100,4 +100,26 @@ idg(config)# write mem
 ![dp16](https://github.com/fxnaranjo/datapower-operator/raw/main/images/16.png "dp16")
 
 ### 3. Creating an IBM Datapower Gateway in Red Hat Openshift
+#### 2.3 Install the IBM Datapower Operator
+* Add the online catalog sources to the cluster according to this [link](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2020.4?topic=installing-adding-online-catalog-sources-cluster)
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
