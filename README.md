@@ -103,7 +103,7 @@ idg(config)# write mem
 ##### 2.3.2 Use you browser to test the following URL: [http://localhost:4444/v2/pet/findByStatus?status=available](http://localhost:4444/v2/pet/findByStatus?status=available)
 ![dp16](https://github.com/fxnaranjo/datapower-operator/raw/main/images/16.png "dp16")
 
-## All the configuration is ready in the local Datapower Container, now lets move this configuration to Datapower Service on Openshift
+## All the configuration is ready in the local Datapower container, now lets move this configuration to Datapower Service on Openshift
 
 ### 3. Creating an IBM Datapower Gateway in Red Hat Openshift
 #### 3.1 Install the IBM Datapower Operator
