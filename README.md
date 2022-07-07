@@ -14,6 +14,7 @@ https://www.ibm.com/docs/en/datapower-operator/1.6
 ### 1. Creating the IBM Datapower Docker Development Environment
 
 #### 1.1 Create a directory structure to hold the configuration files
+* This directories will hold all the configuration files generated from your local Datapower container, this configuration files will later be used to create the Openshift Config Maps needed for creating the Datapower Service on Openshift
 ```
 user@mypc:$ mkdir /home/fnaranjo/DEMOS/datapower
 user@mypc:$ mkdir certs local config
