@@ -8,8 +8,9 @@ https://www.ibm.com/docs/en/datapower-operator/1.6
 ## Prerequisites
 1. Red Hat Openshift Cluster 4.8.X
 2. Computer with podman or docker
-3. Internet Access
-4. IBM Entitled Key to access IBM Container Registry
+3. Openshift Command Line (oc)
+4. Internet Access
+5. IBM Entitled Key to access IBM Container Registry
 
 ### 1. Creating the IBM Datapower Docker Development Environment
 
