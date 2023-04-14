@@ -6,7 +6,7 @@ https://www.ibm.com/docs/en/datapower-operator/1.6
 
 ***
 ## Prerequisites
-1. Red Hat Openshift Cluster 4.8.X
+1. Red Hat Openshift Cluster 4.10
 2. Computer with podman or docker
 3. Openshift Command Line (oc)
 4. Internet Access
@@ -28,6 +28,7 @@ Username: cp
 Password: <IBM Entitled Key>
 ```
 #### 1.3 Start the IBM Datapower Container
+https://www.ibm.com/docs/en/datapower-operator/1.6?topic=s-version-1
 ```
 user@mypc:$ docker run -it --name mydp \
 -v $(pwd)/config:/opt/ibm/datapower/drouter/config \
